@@ -9,9 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
-  height: 800px;
-  padding: 152px 0px 151px 0px;
+  min-height: 100vh;
   background: #D5E1EF;
 }
 
@@ -48,7 +46,7 @@ body {
   flex-shrink: 0;  
 }
 
-.text h2 {
+.text h1 {
   width: 288px;
   color: #1F314F;
   text-align: center;
